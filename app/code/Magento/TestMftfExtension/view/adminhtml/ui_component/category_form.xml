@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="mftf_test_fieldset" sortOrder="80">
+        <settings>
+            <collapsible>true</collapsible>
+            <label translate="true">Mftf Test Fieldset</label>
+        </settings>
+        <field name="mftf_test_field" sortOrder="250" formElement="input">
+            <settings>
+                <dataType>string</dataType>
+                <label translate="true">Mftf Test Field</label>
+            </settings>
+        </field>
+    </fieldset>
+</form>
